@@ -21,10 +21,10 @@ flag_top_up = False
 
 cb = CallbackData('btn', 'type', 'user_id', 'transfer_id', "card_id")
 api = CashdeskAPI(
-    api_url="https://partners.servcul.com/CashdeskBotAPI/",
-    hash_key="b2d73cf41c1d6ccb5d2b3bff3814d714ad7e6a045502e783fdf515c2d52b716a",
-    cashier_pass="8G9xuW5yg2^7",
-    cashdesk_id="1265128"
+    api_url="***",
+    hash_key="***",
+    cashier_pass="***",
+    cashdesk_id="***"
 )
 
 async def keyboard_card():
